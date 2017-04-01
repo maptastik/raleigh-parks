@@ -13,12 +13,12 @@ html, body {
 
 #info-box {
   color: white;
-  padding: 0;
-  /*background-color: white;*/
   position: absolute;
   top: 0;
   right: 0;
   padding: 10px 10px 0 0;
+  text-align: right;
+  max-width: 33%;
 }
 #info-box h1 {
   margin: 0;
@@ -31,4 +31,34 @@ html, body {
   font-size: 1.4em;
   text-shadow: rgb(0, 0, 0) 0px 0px 6px,
                rgb(0, 0, 0) 4px 4px 12px;*/
+}
+
+@media (max-width: 900px) {
+  #info-box h1 {
+    font-size: 3em;
+  }
+  #info-box p {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 600px) {
+  #info-box h1 {
+    font-size: 2em;
+  }
+  #info-box p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 400px) {
+  #info-box h1 {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 300px) {
+  #info-box h1 {
+    font-size: 1.2em;
+  }
+  #info-box p {
+    font-size: 0.8em;
+  }
 }
