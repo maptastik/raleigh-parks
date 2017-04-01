@@ -33,6 +33,10 @@ html, body {
                rgb(0, 0, 0) 4px 4px 12px;*/
 }
 
+#info-box-hover {
+  font-style: italic;
+}
+
 @media (max-width: 900px) {
   #info-box h1 {
     font-size: 3em;
