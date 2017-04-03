@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name='viewport' content='initial-scale=1.0, user-scalable=no'>
+    <meta charset='utf-8'>
+    <title>Raleigh Parks</title>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <div id='map'></div>
+    <div id='menu'>
+      <input type='radio' id='dark' name='rtoggle' value='dark-v9' checked='checked'>
+      <label for='dark'>Dark Base</label>
+      <input type='radio' id='satellite-streets' name='rtoggle' value='satellite-streets-v10'>
+      <label for='satellite-streets'>Satellite w/ Streets</label>
+    </div>
+    <div id='info-box'>
+      <h1 id='info-box-name'></h1>
+      <p id='info-box-type' class='info-box-item'></p>
+      <p id='info-box-developed' class='info-box-item'></p>
+      <p id='info-box-acres' class='info-box-item'></p>
+      <p id='info-box-hover'></p>
+    </div>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+    <script src='app.js'></script>
+  </body>
+</html>
