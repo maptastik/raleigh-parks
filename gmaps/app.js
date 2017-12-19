@@ -1,7 +1,7 @@
 function initMap() {
   // STARTER VARIABLES
   // Raleigh parks data
-  var raleighParks = 'http://data-ral.opendata.arcgis.com/datasets/5a211ae2f9974f3b814438d5f3a5d783_12.geojson';
+  var raleighParks = 'http://data-ral.opendata.arcgis.com/datasets/5a211ae2f9974f3b814438d5f3a5d783_4.geojson';
   // Map style
   var darkBaseStyle = new google.maps.StyledMapType(darkMatter, {name: 'Dark Base'});
   // Map bounds (Empty)
