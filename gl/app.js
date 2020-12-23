@@ -18,7 +18,7 @@ var inputs = layerList.getElementsByTagName('input');
 function parksLayer(sourceId) {
   map.addSource(sourceId, {
     type: 'geojson',
-    data: 'http://data-ral.opendata.arcgis.com/datasets/5a211ae2f9974f3b814438d5f3a5d783_4.geojson'
+    data: 'https://opendata.arcgis.com/datasets/43b5d6bf9d6e400599498d052545d331_0.geojson'
   })
   map.addLayer({
     'id': 'parks-line',
